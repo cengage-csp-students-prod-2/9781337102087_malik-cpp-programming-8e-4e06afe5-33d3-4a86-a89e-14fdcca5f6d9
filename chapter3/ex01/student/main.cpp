@@ -33,18 +33,16 @@ int main() {
     salary >> bonus >> taxes >> distance >> time >>
     coffee >> cost;
 
-    double paycheck = salary + bonus - taxes;
-    double avg = distance/time;
-    double sales = coffee * cost;
+    double paycheck = (salary * (bonus/100))
+    
 
     
     outFile << "Name: " << firstname << " " << 
-      lastname << ", " << "Department: \n" << 
-        department << ;
-
-
-
-            
+    lastname << ", " << "Department: " << department << endl 
+    << "Monthly Gross Salary: " << "$" << salary << ", " 
+    << "Monthly Bonus: " << bonus << "%" <<
+    ", " << "Taxes: " << taxes << "%" << endl 
+    << "Paycheck: " << "$" << paycheck;
 
 
     return 0;
