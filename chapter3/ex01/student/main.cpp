@@ -20,21 +20,26 @@ int main() {
     double salary;
     double bonus;
     double taxes;
-    double paycheck;
 
     double distance;
     double time;
-    double avg;
 
     double coffee;
     double cost;
-    double sales;
 
-    inFile >> firstname >> lastname >> department;
+
+    inFile >> firstname >> lastname >> department >>
+    salary >> bonus >> taxes >> distance >> time >>
+    coffee >> cost;
+
+    double paycheck = salary + bonus - taxes;
+    double avg = distance/time;
+    double sales = coffee * cost;
+
     
     outFile << "Name: " << firstname << " " << 
-      lastname << ", " << "Department: " << 
-        department << endl;
+      lastname << ", " << "Department: \n" << 
+        department << ;
 
 
 
