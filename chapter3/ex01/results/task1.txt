@@ -1,14 +1,14 @@
 
 Status: FAILED!
 Check: 1
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the c++ files.
-Timestamp: 2024-09-24 23:26:38.857661
+Test: Close `inFile`
+Reason: Unable to find 'inFile.close()' in the program.
+Error : str - AssertionError
+Timestamp: 2024-09-26 20:32:12.017904
 
 Status: FAILED!
 Check: 2
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the c++ files.
-Timestamp: 2024-09-24 23:26:38.857786
+Test: Close `outFile`
+Reason: Unable to find '    outFile.close();' in the program.
+Error : str - AssertionError
+Timestamp: 2024-09-26 20:32:12.018545
