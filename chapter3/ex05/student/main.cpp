@@ -28,16 +28,11 @@ int main() {
     updatedsalary3 = salary3 + (salary3 * (payincrease3/100));
 
     
-    outFile << fixed << setprecision(2);
-    outFile << "Employee: " << firstnameA_M << " " << lastnameM << 
-       "\nPay increase: %" << payincrease1 <<"\n"
-            << "New Salary: $" << updatedsalary1 << "\n\n";
-    outFile << "Employee: " << firstnameS << " " << lastnameG <<
-       "\nPay increase: %" << payincrease2 << "\n"
-            << "New Salary: $" << updatedsalary2 << "\n\n";
-    outFile << "Employee: " << firstnameA_S << " " << lastnameS <<
-       "\nPay increase: %" << payincrease3 << "\n"
-            << "New Salary: $" << updatedsalary3 << "\n";
+    outFile << fixed << showpoint;
+    outFile << setprecision(2);
+    outFile << firstnameA_M << " " << lastnameM << " "  << updatedsalary1 << endl;
+    outFile << firstnameS << " " << lastnameG << " " << updatedsalary2 << endl;
+    outFile << firstnameA_S << " " << lastnameS << " " << updatedsalary3 << endl;
 
     
     inFile.close();
