@@ -1,5 +1,5 @@
 
-
+#include <iostream>
 #include <fstream>
 #include <string>
 #include <iomanip>
@@ -33,15 +33,36 @@ int main() {
     salary >> bonus >> taxes >> distance >> time >>
     coffee >> cost;
 
-    double paycheck = salary + 
-    (salary * (bonus/100)) * (taxes/100);
+    double salaryANDbonus = salary + (salary * (bonus/100));
+
+    double paycheck = salaryANDbonus - (salaryANDbonus * (taxes/100));
     
+    outFile << fixed << showpoint;
+    outFile << setprecision(2);
+
     outFile << "Name: " << firstname << " " << 
     lastname << ", " << "Department: " << department << endl 
     << "Monthly Gross Salary: " << "$" << salary << ", " 
     << "Monthly Bonus: " << bonus << "%" <<
     ", " << "Taxes: " << taxes << "%" << endl 
-    << "Paycheck: " << "$" << paycheck;
+    << "Paycheck: " << "$" << paycheck << endl;
+
+    outFile << "\n";
+
+
+    outFile << "Distance Traveled: " << distance << " miles, " 
+    << "Traveling Time: " << time << " hours" << endl <<
+    "Average Speed: " << distance/time << " miles per hour" << endl;
+
+    outFile << "\n";
+
+    outFile << "Number of Coffee Cups Sold: " << coffee << ", " <<
+    "Cost: " << "$" << cost << " per cup" << endl <<
+    "Sales Amount = " << "$" << coffee * cost;
+
+    inFile.close();
+    outFile.close();
+
 
 
     return 0;
