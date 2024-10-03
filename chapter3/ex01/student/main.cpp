@@ -60,6 +60,7 @@ int main() {
     "Cost: " << "$" << cost << " per cup" << endl <<
     "Sales Amount = " << "$" << coffee * cost;
 
+    
     inFile.close();
     outFile.close();
 
