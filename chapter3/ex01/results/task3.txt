@@ -3,10 +3,10 @@ Status: PASSED!
 Check: 1
 Test: Open *inData.txt* and associate with `inFile`
 Reason: inFile.open("inData.txt"); + ` was found in the program.None
-Timestamp: 2024-10-03 01:51:41.011445
+Timestamp: 2024-10-03 01:52:05.765784
 
 Status: PASSED!
 Check: 2
 Test: Open *outData.txt* and associate with `outFile`
 Reason:     outFile.open("outData.txt"); + ` was found in the program.None
-Timestamp: 2024-10-03 01:51:41.011741
+Timestamp: 2024-10-03 01:52:05.766085
