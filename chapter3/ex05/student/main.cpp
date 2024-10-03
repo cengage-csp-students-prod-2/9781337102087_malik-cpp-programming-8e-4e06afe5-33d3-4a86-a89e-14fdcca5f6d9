@@ -6,7 +6,13 @@
 using namespace std;
 
 int main() {
-    ifstream inFile("Ch3_Ex5Data.txt");
+    string filename;
+
+    cout << "Input Filename: ";
+    cin >> filename;
+
+     
+    ifstream inFile(filename);
     ofstream outFile("Ch3_Ex5Output.dat");
 
 
