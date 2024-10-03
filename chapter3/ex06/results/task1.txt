@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: Output formatted to two decimal places
+Reason: setprecision(2) + ` was found in the program.None
+Timestamp: 2024-10-03 16:20:18.084878
