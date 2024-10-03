@@ -31,13 +31,13 @@ int main() {
     outFile << fixed << setprecision(2);
     outFile << "Employee: " << firstnameA_M << " " << lastnameM << 
        "\nPay increase: %" << payincrease1 <<"\n"
-            << "New Salary: $" << salary1 << "\n\n";
+            << "New Salary: $" << updatedsalary1 << "\n\n";
     outFile << "Employee: " << firstnameS << " " << lastnameG <<
        "\nPay increase: %" << payincrease2 << "\n"
-            << "New Salary: $" << salary2 << "\n\n";
+            << "New Salary: $" << updatedsalary2 << "\n\n";
     outFile << "Employee: " << firstnameA_S << " " << lastnameS <<
        "\nPay increase: %" << payincrease3 << "\n"
-            << "New Salary: $" << salary3 << "\n";
+            << "New Salary: $" << updatedsalary3 << "\n";
 
     
     inFile.close();
