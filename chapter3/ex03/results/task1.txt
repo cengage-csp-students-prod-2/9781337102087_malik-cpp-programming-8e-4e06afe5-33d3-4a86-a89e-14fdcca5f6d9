@@ -1,7 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Decimal format
-Reason: Unable to find 'setprecision(2)' in the program.
-Error : str - AssertionError
-Timestamp: 2024-10-03 02:39:26.361382
+Reason: setprecision(2) + ` was found in the program.None
+Timestamp: 2024-10-03 02:40:51.711679
