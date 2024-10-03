@@ -12,8 +12,11 @@ int main() {
     cin >> filename;
 
      
-    ifstream inFile(filename);
-    ofstream outFile("Ch3_Ex5Output.dat");
+    ifstream inFile;
+    ofstream outFile;
+    
+    inFile.open(filename);
+    outFile.open("Ch3_Ex5Output.dat");
 
 
     string lastnameM, firstnameA_M;  
