@@ -1,0 +1,12 @@
+
+Status: PASSED!
+Check: 1
+Test: `inFile` declared
+Reason: ifstream inFile + ` was found in the program.None
+Timestamp: 2024-10-03 01:50:43.297599
+
+Status: PASSED!
+Check: 2
+Test: `outFile` declared
+Reason: ofstream outFile + ` was found in the program.None
+Timestamp: 2024-10-03 01:50:43.298023
