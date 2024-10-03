@@ -2,25 +2,33 @@
 
 #include <cmath>
 
+#include <iostream>
+
+using namespace std;
+
 int main()
 
-{}
+{
 
 double height;
+double radius;
+const double PI = 3.14159;
+
+cout << fixed << showpoint << setprecision(2);
+
+
+cout << "Enter the height of the cylinder: ";
+cin >> height;
+cout << "Enter the radius of the base of the cylinder: ";
+cin >> radius;
+
+cout << endl;
 
 cout << "Volume of the cylinder = "
 
 << PI * pow(radius, 2.0) * height << endl;
 
-cout << "Enter the height of the cylinder: ";
-
-cin >> radius;
-
 cout << endl;
-
-return 0;
-
-double radius;
 
 cout << "Surface area: "
 
@@ -28,16 +36,10 @@ cout << "Surface area: "
 
 << endl;
 
-cout << fixed << showpoint << setprecision(2);
-
-cout << "Enter the radius of the base of the cylinder: ";
-
-cin >> height;
-
 cout << endl;
 
-#include <iostream>
 
-const double PI = 3.14159;
 
-using namespace std;
+return 0;
+
+}
