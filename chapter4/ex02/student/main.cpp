@@ -1,39 +1,37 @@
 #include <iostream>
-#include <string>
-#include <iomanip>
-#include <algorithm>
-
 
 using namespace std;
 
 int main() {
-    // Write your main here
-
-    int num1,num2,num3;
+    int num1, num2, num3;
 
     cout << "Enter three numbers: ";
     cin >> num1 >> num2 >> num3;
 
-    if (num1 <= num2 && num1 <=num3){
-         cout << num1 << " "  << num3 << " " << num2;
+    if (num1 <= num2 && num1 <= num3) {
+        cout << num1 << " ";
+        if (num2 <= num3) {
+            cout << num2 << " " << num3;
+        } else {
+            cout << num3 << " " << num2;
+        }
+    } else if (num2 <= num1 && num2 <= num3) {
+        cout << num2 << " ";
+        if (num1 <= num3) {
+            cout << num1 << " " << num3;
+        } else {
+            cout << num3 << " " << num1;
+        }
+    } else {
+        cout << num3 << " ";
+        if (num1 <= num2) {
+            cout << num1 << " " << num2;
+        } else {
+            cout << num2 << " " << num1;
+        }
     }
 
-    else if (num2 <= num1 && num2 <= num3){
-        cout << num2 << " " << num3 << " " << num1;
-    }
- 
-    else if(num3 <= num1 && num3 <= num2){
-        cout << num3 << " " << num2 << " " << num1;
-    }
-  
-    
-    
+    cout << endl; // New line for better output formatting
 
-
-
-
-
-
-
-   return 0;
+    return 0;
 }
