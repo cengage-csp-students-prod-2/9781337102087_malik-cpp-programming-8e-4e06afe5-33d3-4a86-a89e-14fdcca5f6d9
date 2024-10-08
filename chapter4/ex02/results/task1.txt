@@ -1,15 +1,17 @@
 
-Status: PASSED!
+Status: FAILED!
 Check: 1
 Test: All positive in order case 1
-Reason: None
-Timestamp: 2024-10-08 17:51:31.411259
+Reason: Unable to find '['2 99 134']' in the program's output.
+Enter three numbers:  2 134 99.
+Error : AssertionError - Unable to find 2 99 134 in the program's output.
+Timestamp: 2024-10-08 17:52:09.045472
 
 Status: PASSED!
 Check: 2
 Test: All positive not in order case 1
 Reason: None
-Timestamp: 2024-10-08 17:51:31.413427
+Timestamp: 2024-10-08 17:52:09.047538
 
 Status: FAILED!
 Check: 3
@@ -17,10 +19,10 @@ Test: All negative not in order case 1
 Reason: Unable to find '['-503 -489 -89']' in the program's output.
 Enter three numbers:  -503 -89 -489.
 Error : AssertionError - Unable to find -503 -489 -89 in the program's output.
-Timestamp: 2024-10-08 17:51:31.415548
+Timestamp: 2024-10-08 17:52:09.049536
 
 Status: PASSED!
 Check: 4
 Test: Positive, negative and zero case 1 
 Reason: None
-Timestamp: 2024-10-08 17:51:31.417672
+Timestamp: 2024-10-08 17:52:09.051544
