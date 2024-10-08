@@ -1,28 +1,28 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: All positive in order case 1
-Reason: Unable to find '['2 99 134']' in the program's output.
-Enter three numbers:  2 134 99.
-Error : AssertionError - Unable to find 2 99 134 in the program's output.
-Timestamp: 2024-10-08 17:53:01.251048
-
-Status: PASSED!
-Check: 2
-Test: All positive not in order case 1
 Reason: None
-Timestamp: 2024-10-08 17:53:01.253821
+Timestamp: 2024-10-08 17:54:35.119521
 
 Status: FAILED!
-Check: 3
-Test: All negative not in order case 1
-Reason: Unable to find '['-503 -489 -89']' in the program's output.
-Enter three numbers:  -503 -89 -489.
-Error : AssertionError - Unable to find -503 -489 -89 in the program's output.
-Timestamp: 2024-10-08 17:53:01.256287
+Check: 2
+Test: All positive not in order case 1
+Reason: Unable to find '['732 803 839']' in the program's output.
+Enter three numbers:  732 839 803.
+Error : AssertionError - Unable to find 732 803 839 in the program's output.
+Timestamp: 2024-10-08 17:54:35.121631
 
 Status: PASSED!
+Check: 3
+Test: All negative not in order case 1
+Reason: None
+Timestamp: 2024-10-08 17:54:35.123675
+
+Status: FAILED!
 Check: 4
 Test: Positive, negative and zero case 1 
-Reason: None
-Timestamp: 2024-10-08 17:53:01.258410
+Reason: Unable to find '['-3435 0 8943']' in the program's output.
+Enter three numbers:  -3435 8943 0.
+Error : AssertionError - Unable to find -3435 0 8943 in the program's output.
+Timestamp: 2024-10-08 17:54:35.125690
