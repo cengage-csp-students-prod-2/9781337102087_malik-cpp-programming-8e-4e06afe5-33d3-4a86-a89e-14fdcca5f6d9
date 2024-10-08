@@ -31,7 +31,6 @@ int main() {
         }
     }
 
-    cout << endl; // New line for better output formatting
 
     return 0;
 }
