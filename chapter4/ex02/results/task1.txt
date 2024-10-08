@@ -3,22 +3,22 @@ Status: PASSED!
 Check: 1
 Test: All positive in order case 1
 Reason: None
-Timestamp: 2024-10-08 18:05:08.424889
+Timestamp: 2024-10-08 18:05:31.863380
 
 Status: PASSED!
 Check: 2
 Test: All positive not in order case 1
 Reason: None
-Timestamp: 2024-10-08 18:05:08.427104
+Timestamp: 2024-10-08 18:05:31.865460
 
 Status: PASSED!
 Check: 3
 Test: All negative not in order case 1
 Reason: None
-Timestamp: 2024-10-08 18:05:08.429178
+Timestamp: 2024-10-08 18:05:31.867409
 
 Status: PASSED!
 Check: 4
 Test: Positive, negative and zero case 1 
 Reason: None
-Timestamp: 2024-10-08 18:05:08.431172
+Timestamp: 2024-10-08 18:05:31.869396
