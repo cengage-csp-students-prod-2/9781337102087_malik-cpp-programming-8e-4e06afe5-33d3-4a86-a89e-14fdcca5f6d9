@@ -1,0 +1,40 @@
+
+Status: FAILED!
+Check: 1
+Test: Rectangle test case 1
+Reason: Unable to find '['1980.00', '186.00']' in the program's output.
+Enter the shape type: (rectangle, circle, cylinder) 
+Area of the circle = 0
+Circumference of the circle: 4.36617e-309
+Enter the height of the cylinder: 
+Enter the width of the rectangle: 
+Perimeter of the rectangle = 66
+Surface area of the cylinder: 2.6197e-307
+.
+Error : AssertionError - Unable to find a number close enough to 1980.00 (+/-0.00) in the program's output.
+Timestamp: 2024-10-15 17:09:03.759525
+
+Status: FAILED!
+Check: 2
+Test: Circle test case 1
+Reason: Unable to find '['9503.34', '345.58']' in the program's output.
+Enter the shape type: (rectangle, circle, cylinder) 
+Enter the radius of the circle: 
+Volume of the cylinder = 3.65456e+270
+Surface area of the cylinder: 1.32893e+269
+.
+Error : AssertionError - Unable to find a number close enough to 9503.34 (+/-0.00) in the program's output.
+Timestamp: 2024-10-15 17:09:03.761764
+
+Status: FAILED!
+Check: 3
+Test: Cylinder test case 1
+Reason: Unable to find '['2544.70', '1753.01']' in the program's output.
+Enter the shape type: (rectangle, circle, cylinder) 
+Enter the length of the rectangle: 
+Enter the radius of the base of the cylinder: 
+Area of the rectangle = 6.20897e-308
+Surface area of the cylinder: -1841.64
+.
+Error : AssertionError - Unable to find a number close enough to 2544.70 (+/-0.00) in the program's output.
+Timestamp: 2024-10-15 17:09:03.763923
