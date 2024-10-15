@@ -3,7 +3,7 @@ Status: PASSED!
 Check: 1
 Test: Rectangle test case 1
 Reason: None
-Timestamp: 2024-10-15 17:11:53.082002
+Timestamp: 2024-10-15 17:13:15.176634
 
 Status: FAILED!
 Check: 2
@@ -15,10 +15,10 @@ Area of the circle = 9503.34
 Circumference of the circle = 345.576
 .
 Error : AssertionError - Unable to find a number close enough to 345.58 (+/-0.00) in the program's output.
-Timestamp: 2024-10-15 17:11:53.084264
+Timestamp: 2024-10-15 17:13:15.179327
 
 Status: PASSED!
 Check: 3
 Test: Cylinder test case 1
 Reason: None
-Timestamp: 2024-10-15 17:11:53.086468
+Timestamp: 2024-10-15 17:13:15.181758
