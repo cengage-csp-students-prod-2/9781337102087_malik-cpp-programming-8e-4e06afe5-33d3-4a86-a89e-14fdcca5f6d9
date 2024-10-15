@@ -1,13 +1,20 @@
 using namespace std;
 
 #include <iostream>
+ #include <string>
+ #include <iomanip>
+ #include <cmath>
 
 
 int main()
 {
     string shape;
     double height;
-    #include <string>
+    double width;
+    double length;
+    double radius;
+    const double PI = 3.1416;
+
     
     cout << "Enter the shape type: (rectangle, circle, cylinder) ";
     cin >> shape;
@@ -31,14 +38,8 @@ int main()
         
         cout << "Perimeter of the rectangle = "
              << 2 * (length + width) << endl;
-        double width;
-    }
-    
-    cout << "Surface area of the cylinder: "
-         << 2 * PI * radius * height + 2 * PI * pow(radius, 2.0)
-         << endl;
-    }
-    else if (shape == "circle")
+        
+    } else if (shape == "circle")
     {
         cout << "Enter the radius of the circle: ";
         cin >> radius;
@@ -46,29 +47,37 @@ int main()
         
         cout << "Volume of the cylinder = "
              << PI * pow(radius, 2.0)* height << endl;
-        double length;
-    }
-    return 0;
-
-    else if (shape == "cylinder")
+        
+    } else if (shape == "cylinder")
     {
-        double radius;
+        
         
         cout << "Enter the length of the rectangle: ";
         cin >> length;
         cout << endl;
         
-        #include <iomanip>
+        
         
         cout << "Enter the radius of the base of the cylinder: ";
         cin >> radius;
         cout << endl;
         
-        const double PI = 3.1416;
+        
         cout << "Area of the rectangle = "
              << length * width << endl;
-    else
+    }else {
         cout << "The program does not handle " << shape << endl;
-        cout << fixed << showpoint << setprecision(2);
-   #include <cmath>
+        cout << fixed << showpoint << setprecision(2);}
+    
+    cout << "Surface area of the cylinder: "
+         << 2 * PI * radius * height + 2 * PI * pow(radius, 2.0)
+         << endl;
+    
+    
+   
+
+    
+   
+
+ return 0;
 }
