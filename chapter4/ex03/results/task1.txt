@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: Cast operator used
+Reason: static_cast<char> + ` was found in the program.None
+Timestamp: 2024-10-15 16:57:25.691755
