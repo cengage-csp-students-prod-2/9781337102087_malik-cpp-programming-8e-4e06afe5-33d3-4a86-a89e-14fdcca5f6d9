@@ -3,22 +3,16 @@ Status: PASSED!
 Check: 1
 Test: Rectangle test case 1
 Reason: None
-Timestamp: 2024-10-15 17:13:15.176634
+Timestamp: 2024-10-15 17:14:49.537456
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Circle test case 1
-Reason: Unable to find '['9503.34', '345.58']' in the program's output.
-Enter the shape type: (rectangle, circle, cylinder) 
-Enter the radius of the circle: 
-Area of the circle = 9503.34
-Circumference of the circle = 345.576
-.
-Error : AssertionError - Unable to find a number close enough to 345.58 (+/-0.00) in the program's output.
-Timestamp: 2024-10-15 17:13:15.179327
+Reason: None
+Timestamp: 2024-10-15 17:14:49.539774
 
 Status: PASSED!
 Check: 3
 Test: Cylinder test case 1
 Reason: None
-Timestamp: 2024-10-15 17:13:15.181758
+Timestamp: 2024-10-15 17:14:49.541913
