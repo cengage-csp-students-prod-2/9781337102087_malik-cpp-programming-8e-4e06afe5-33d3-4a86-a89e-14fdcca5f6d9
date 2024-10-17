@@ -1,0 +1,54 @@
+
+Status: FAILED!
+Check: 1
+Test: Right triangle test case 1
+Reason: Unable to find '['It is a right angled triangle']' in the program's output.
+enter length of three sides of a triangle: 
+it is not a right angled triangle..
+Error : AssertionError - Unable to find It is a right angled triangle in the program's output.
+Timestamp: 2024-10-17 03:36:32.505203
+
+Status: FAILED!
+Check: 2
+Test: Not right triangle test case 1
+Reason: Unable to find '['It is not a right angled triangle']' in the program's output.
+enter length of three sides of a triangle: 
+it is not a right angled triangle..
+Error : AssertionError - Unable to find It is not a right angled triangle in the program's output.
+Timestamp: 2024-10-17 03:36:32.507413
+
+Status: FAILED!
+Check: 3
+Test: Right triangle test case 2
+Reason: Unable to find '['It is a right angled triangle']' in the program's output.
+enter length of three sides of a triangle: 
+it is not a right angled triangle..
+Error : AssertionError - Unable to find It is a right angled triangle in the program's output.
+Timestamp: 2024-10-17 03:36:32.509564
+
+Status: FAILED!
+Check: 4
+Test: Side 1 test
+Reason: Unable to find '['It is a right angled triangle']' in the program's output.
+enter length of three sides of a triangle: 
+it is not a right angled triangle..
+Error : AssertionError - Unable to find It is a right angled triangle in the program's output.
+Timestamp: 2024-10-17 03:36:32.511653
+
+Status: FAILED!
+Check: 5
+Test: Side 2 test
+Reason: Unable to find '['It is a right angled triangle']' in the program's output.
+enter length of three sides of a triangle: 
+it is not a right angled triangle..
+Error : AssertionError - Unable to find It is a right angled triangle in the program's output.
+Timestamp: 2024-10-17 03:36:32.513711
+
+Status: FAILED!
+Check: 6
+Test: Side 3 test
+Reason: Unable to find '['It is a right angled triangle']' in the program's output.
+enter length of three sides of a triangle: 
+it is not a right angled triangle..
+Error : AssertionError - Unable to find It is a right angled triangle in the program's output.
+Timestamp: 2024-10-17 03:36:32.515809
