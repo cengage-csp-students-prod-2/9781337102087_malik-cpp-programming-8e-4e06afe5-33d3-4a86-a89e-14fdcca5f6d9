@@ -1,21 +1,12 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Test case 1
-Reason: Unable to find '['32699', '9', '435', '74']' in the program's output.
-Total Number of Cookies: Total Boxes Needed: 32699
-Total Containers Needed: 435
-Leftover Boxes: 
-435Leftover Containers: 74.
-Error : AssertionError - Unable to find a number close enough to 9 (+/-0.00) in the program's output.
-Timestamp: 2024-10-17 04:15:53.627042
+Reason: None
+Timestamp: 2024-10-17 04:22:37.779542
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Test case 2
-Reason: Unable to find '['5', '4', '0', '5']' in the program's output.
-Total Number of Cookies: Total Boxes Needed: 5
-Total Containers Needed: 0
-.
-Error : AssertionError - Unable to find a number close enough to 4 (+/-0.00) in the program's output.
-Timestamp: 2024-10-17 04:15:53.711177
+Reason: None
+Timestamp: 2024-10-17 04:22:37.781754
