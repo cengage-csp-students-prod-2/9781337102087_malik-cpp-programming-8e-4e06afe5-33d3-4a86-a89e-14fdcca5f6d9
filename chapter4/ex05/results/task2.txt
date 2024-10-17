@@ -1,27 +1,18 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Side 1 test
-Reason: Unable to find '['It is a right angled triangle']' in the program's output.
-enter length of three sides of a triangle: 
-it is not a right angled triangle..
-Error : AssertionError - Unable to find It is a right angled triangle in the program's output.
-Timestamp: 2024-10-17 03:36:32.517875
+Reason: None
+Timestamp: 2024-10-17 03:38:56.598615
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Side 2 test
-Reason: Unable to find '['It is a right angled triangle']' in the program's output.
-enter length of three sides of a triangle: 
-it is not a right angled triangle..
-Error : AssertionError - Unable to find It is a right angled triangle in the program's output.
-Timestamp: 2024-10-17 03:36:32.519973
+Reason: None
+Timestamp: 2024-10-17 03:38:56.600674
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
 Test: Side 3 test
-Reason: Unable to find '['It is a right angled triangle']' in the program's output.
-enter length of three sides of a triangle: 
-it is not a right angled triangle..
-Error : AssertionError - Unable to find It is a right angled triangle in the program's output.
-Timestamp: 2024-10-17 03:36:32.521998
+Reason: None
+Timestamp: 2024-10-17 03:38:56.602824
