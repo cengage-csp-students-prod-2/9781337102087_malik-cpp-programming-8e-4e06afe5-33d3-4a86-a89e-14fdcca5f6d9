@@ -7,7 +7,7 @@ int main() {
     cout << "Enter lengths of three sides of a triangle: ";
     cin >> side1 >> side2 >> side3;
 
-    // Check the Pythagorean theorem directly without sorting
+    
     if (side1 * side1 == side2 * side2 + side3 * side3 ||
         side2 * side2 == side1 * side1 + side3 * side3 ||
         side3 * side3 == side1 * side1 + side2 * side2) {
