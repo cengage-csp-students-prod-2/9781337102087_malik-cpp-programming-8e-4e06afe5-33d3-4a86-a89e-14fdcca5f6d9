@@ -23,7 +23,7 @@ int main() {
     cout << "Total Boxes Needed: " << totalboxes <<"\nTotal Containers Needed: " 
     << totalcontainers << endl;
     cout << "Leftover Boxes: \n" << totalcontainers % totalboxes;
-    cout << "Leftover Containers: " << totalboxes % total containers;
+    cout << "Leftover Containers: " << totalboxes % totalcontainers;
     
 
 
