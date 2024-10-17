@@ -1,29 +1,20 @@
 #include <iostream>
-#include <string>
-
 using namespace std;
 
 int main() {
-    // Write your main here
-
     int side1, side2, side3;
-    string rtriangle;
 
-    cout << "enter length of three sides of a triangle: " << endl;
-    cin >> side1 >> side2>> side3;
+    cout << "Enter lengths of three sides of a triangle: ";
+    cin >> side1 >> side2 >> side3;
 
-   
-
-    if (side1 == side2+side3){ cout << "it is a right angled triangle."<<endl;
-
+    // Check the Pythagorean theorem directly without sorting
+    if (side1 * side1 == side2 * side2 + side3 * side3 ||
+        side2 * side2 == side1 * side1 + side3 * side3 ||
+        side3 * side3 == side1 * side1 + side2 * side2) {
+        cout << "It is a right angled triangle." << endl;
+    } else {
+        cout << "It is not a right angled triangle." << endl;
     }
-    else {
-        cout << "it is not a right angled triangle.";
-    }
-
-    
-
-
 
     return 0;
 }
