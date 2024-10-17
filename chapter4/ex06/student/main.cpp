@@ -20,7 +20,10 @@ int main() {
     int totalboxes = cookies/cookiesPerBox;
     int totalcontainers = totalboxes/boxesPerContainer;
 
-    cout << "Total Boxes Needed: " << totalboxes <<"\nTotal Containers Needed: " << totalcontainers << endl;
+    cout << "Total Boxes Needed: " << totalboxes <<"\nTotal Containers Needed: " 
+    << totalcontainers << endl;
+    cout << "Leftover Boxes: \n" << totalcontainers % totalboxes;
+    cout << "Leftover Containers: " << totalboxes % total containers;
     
 
 
