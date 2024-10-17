@@ -8,7 +8,7 @@ Total Containers Needed: 435
 Leftover Boxes: 
 435Leftover Containers: 74.
 Error : AssertionError - Unable to find a number close enough to 9 (+/-0.00) in the program's output.
-Timestamp: 2024-10-17 04:14:07.563259
+Timestamp: 2024-10-17 04:15:53.627042
 
 Status: FAILED!
 Check: 2
@@ -18,4 +18,4 @@ Total Number of Cookies: Total Boxes Needed: 5
 Total Containers Needed: 0
 .
 Error : AssertionError - Unable to find a number close enough to 4 (+/-0.00) in the program's output.
-Timestamp: 2024-10-17 04:14:07.647692
+Timestamp: 2024-10-17 04:15:53.711177
