@@ -1,11 +1,14 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
 int main() {
     int num;
     int sum = 0;
+    string numStr;
     int digit;
+    
 
     cout << "Please enter an integer: ";
     cin >> num;
@@ -21,11 +24,13 @@ int main() {
         sum = 0;
     } else {
         
-        while (num > 0) {
-            digit = num % 10; 
-            cout << digit << " ";  
-            sum += digit;        
-            num /= 10;             
+        numStr = to_string(num);
+
+        
+        for (char digitChar : numStr) {
+            digit = digitChar - '0'; 
+            cout << digit << " ";         
+            sum += digit;                 
         }
         cout << endl;
     }
